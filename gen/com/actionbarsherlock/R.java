@@ -806,6 +806,10 @@ containing a value of this type.
         public static int action_button_min_width=0x7f070010;
         public static int padding_large=0x7f070013;
         public static int padding_medium=0x7f070012;
+        /**    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen> 
+         */
         public static int padding_small=0x7f070011;
     }
     public static final class drawable {
@@ -1061,10 +1065,34 @@ containing a value of this type.
         public static int app_name=0x7f09000f;
         public static int hello_world=0x7f090010;
         public static int menu_settings=0x7f090011;
-        public static int title_activity_main=0x7f090012;
     }
     public static final class style {
-        public static int AppTheme=0x7f0a0059;
+        /** 
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        
+
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    
+ API 11 theme customizations can go here. 
+
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    
+ API 14 theme customizations can go here. 
+         */
+        public static int AppBaseTheme=0x7f0a0059;
+        /**  Application theme. 
+ All customizations that are NOT specific to a particular API-level can go here. 
+         */
+        public static int AppTheme=0x7f0a005a;
         public static int DialogWindowTitle_Sherlock=0x7f0a0036;
         public static int DialogWindowTitle_Sherlock_Light=0x7f0a0037;
         public static int Sherlock___TextAppearance_Small=0x7f0a004a;
@@ -2178,7 +2206,7 @@ containing a value of this type.
          */
         public static final int[] SherlockSpinner = {
             0x010100af, 0x01010175, 0x01010176, 0x0101017b,
-            0x01010262, 0x010102ac, 0x010102ad, 0x010103fd
+            0x01010262, 0x010102ac, 0x010102ad, 0x01010411
         };
         /**
           <p>
