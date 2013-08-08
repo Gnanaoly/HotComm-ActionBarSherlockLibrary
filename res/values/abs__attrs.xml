@@ -428,5 +428,9 @@
 
     <declare-styleable name="SherlockView">
         <attr name="android:focusable"/>
-    </declare-styleable>
+ 
+
+<!-- G Latest -->
+
+   </declare-styleable>
 </resources>
